@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
- /**
- *main - prints the minimum number of coins
- *to make change for an amount of money.
- *@argc:number of commandline arguments.
- *@argv:pointer to an array of commmand line arguments.
- *Return:0-success, non-zero-fail.
+/**
+ * main - Takes in exactly one argument for minimum coin count
+ * @argc: Number of command line arguments
+ * @argv: Array name
+ * Return: 0 if exactly 1 argument is passed into this program, 1 otherwise
  */
-
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]) /* main - prints the minimum number of coins*/
 {
 	if (argc == 2)
 	{
