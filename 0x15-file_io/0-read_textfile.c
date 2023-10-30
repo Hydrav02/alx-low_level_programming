@@ -8,7 +8,7 @@
  *           should be able to read and print
  *
  * Return: If the filename is NULL or the function fails, 0.
- *   O/w - the real amount of bytes that the function is able to read and output.
+ * O/w -the real amount of bytes the function is able to read and output.
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
